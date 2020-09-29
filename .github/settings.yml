@@ -23,7 +23,10 @@ collaborators:
     permission: admin
     
   - username: caniszczyk
-    permission: admin    
+    permission: admin
+    
+  - username: carolynvs
+    permission: push
 
 labels:
   - name: help-wanted
