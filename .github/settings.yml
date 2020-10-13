@@ -16,16 +16,44 @@ repository:
   # a specific role, and we trust these individuals to act according to their
   # role. If there are questions, please contact one of the chairs.
 collaborators:
+  # Chairs and Admin Help
+  - username: justaugustus
+    permission: admin
+
+  - username: jberkus
+    permission: admin
+
   - username: parispittman
     permission: admin
 
   - username: idvoretskyi
     permission: admin
-    
+
   - username: caniszczyk
     permission: admin
-    
+
+  # Contributors
+  # all permissions except admin
+
   - username: carolynvs
+    permission: push
+
+  - username: mattklein123
+    permission: push
+
+  - username: thisisnotapril
+    permission: push
+
+  - username: karenhchu
+    permission: push
+
+  - username: dims
+    permission: push
+
+  - username: geekygirldawn
+    permission: push
+
+  - username: iennae
     permission: push
 
 labels:
