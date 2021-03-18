@@ -24,3 +24,7 @@ governance.
 where senior leadership is elected by the body of contributors.  This is a
 suitable structure for larger projects with an established community.  The
 template is based on Kubernetes project governance.
+
+`GOVERNANCE-subprojects.md` is a template for a "project of projects" where
+the CNCF project is more of an umbrella for a bunch of closely related
+subprojects.  It is based on Konveyor project governance.
