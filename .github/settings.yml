@@ -38,11 +38,11 @@ collaborators:
   - username: caniszczyk
     permission: admin
 
+  - username: carolynvs
+    permission: admin
+
   # Contributors
   # all permissions except admin
-
-  - username: carolynvs
-    permission: push
 
   - username: mattklein123
     permission: push
