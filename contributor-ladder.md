@@ -80,7 +80,7 @@ Description: An Organization Member is an established contributor who regularly 
 An Organization Member must meet the responsibilities and has the requirements of a Contributor, plus:
 
 * Responsibilities include:
-    * Continues to contribute regularly, as demonstrated by having at least [TODO: Number] [TODO: Metric] a year, as demonstrated by [TODO: contributor metrics source]. <!-- Example: "as demonstrated by having at least 50 Github contributions per year, as shown by Devstats"-->
+    * Continues to contribute regularly, as demonstrated by having at least [TODO: Number] [TODO: Metric] a year, as demonstrated by [TODO: contributor metrics source]. <!-- Example: "as demonstrated by having at least 50 GitHub contributions per year, as shown by Devstats"-->
 * Requirements:
     * Must have successful contributions to the project, including at least one of the following:
         * [TODO: Number] accepted PRs,
@@ -91,7 +91,7 @@ An Organization Member must meet the responsibilities and has the requirements o
     * Must have been contributing for at least [TODO: Number] months
     * Must be actively contributing to at least one project area
     * Must have two sponsors who are also Organization Members, at least one of whom does not work for the same employer
-    * [TODO: other requirements] <!--TODO: such as repository access or enabling 2FA on their Github account -->
+    * [TODO: other requirements] <!--TODO: such as repository access or enabling 2FA on their GitHub account -->
 
 * Privileges:
     * May be assigned Issues and Reviews
@@ -132,7 +132,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
     * Commits to being responsible for that specific area
     * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
 * Additional privileges:
-    * Has Github or CI/CD rights to approve pull requests in specific directories
+    * Has GitHub or CI/CD rights to approve pull requests in specific directories
     * Can recommend and review other contributors to become Reviewers
     
 <!-- TODO: define how this works with your specific system.  For example:  "Is listed as Approver in the OWNERS file for certain directories. -->
@@ -173,7 +173,7 @@ A Maintainer must meet the responsibilities and requirements of a Reviewer, plus
     
 
 Process of becoming a maintainer:
-<!-- TODO: this process will vary widely across projects, both because of project code structure, and because of project governance.  For example, in some projects the Steering Committee approves new Maintainers.  What's below is just an example from a simple project in which the maintainers are also the project leaders, and which uses Github OWNERS files. -->
+<!-- TODO: this process will vary widely across projects, both because of project code structure, and because of project governance.  For example, in some projects the Steering Committee approves new Maintainers.  What's below is just an example from a simple project in which the maintainers are also the project leaders, and which uses GitHub OWNERS files. -->
 1. Any current Maintainer may nominate a current Reviewer to become a new Maintainer, by opening a PR against the root of the [TODO: main repository name] adding the nominee as an Approver in the OWNERS file.
 2. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
 3. A majority of the current Maintainers must then approve the PR.
