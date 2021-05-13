@@ -8,20 +8,20 @@ Particularly, this file provides you with a menu of options for your project.  M
 <!-- template begins here -->
 
 * [Contributor Ladder](#contributor-ladder-template)
-    * [Community Participant](#contributor-participant)
+    * [Community Participant](#community-participant)
     * [Contributor](#contributor)
     * [Organization Member](#organization-member)
     * [Reviewer](#reviewer)
     * [Maintainer](#maintainer)
 * [Inactivity](#inactivity)
-* [Involuntary Removal](#involuntary-removal)
+* [Involuntary Removal](#involuntary-removal-or-demotion)
 * [Stepping Down/Emeritus Process](#stepping-downemeritus-process)
 * [Contact](#contact)
 
 
 ## Contributor Ladder
 
-Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilites and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows.  Our project members are happy to help you advance along the contributor ladder.
+Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows.  Our project members are happy to help you advance along the contributor ladder.
 
 Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
 
@@ -46,24 +46,24 @@ Description: A Community Participant engages with the project and its community,
 
 
 ### Contributor
-<!-- This role describes people who have just started contributing, or who contribute occasionally but don't participate in project governance or have defined responsibilities.  Usually projects define either this level or Community Participant, but not both.  If you don't definte this role, make sure to copy over its requirements to Organization Member -->
+<!-- This role describes people who have just started contributing, or who contribute occasionally but don't participate in project governance or have defined responsibilities.  Usually projects define either this level or Community Participant, but not both.  If you don't define this role, make sure to copy over its requirements to Organization Member -->
 <!--TODO: project leads to fill in exact details of this role for your project-->
 Description: A Contributor contributes directly to the project and adds value to it. Contributions need not be code. People at the Contributor level may be new contributors, or they may only contribute occasionally.
 
 * Responsibilities include:
-    * Following the CNCF CoC
-    * Following the project contributing guide
+    * Follow the CNCF CoC
+    * Follow the project contributing guide
 * Requirements (one or several of the below):
-    * Reports and sometimes resolves issues
-    * Occasionally submits PRs
-    * Contributes to the documentation
-    * Shows up at meetings, takes notes
-    * Answers questions from other community members
-    * Submits feedback on issues and PRs
-    * Tests releases and patches and submits reviews
-    * Runs or helps run events
-    * Promotes the project in public
-    * Helps run the project infrastructure
+    * Report and sometimes resolve issues
+    * Occasionally submit PRs
+    * Contribute to the documentation
+    * Show up at meetings, takes notes
+    * Answer questions from other community members
+    * Submit feedback on issues and PRs
+    * Test releases and patches and submit reviews
+    * Run or helps run events
+    * Promote the project in public
+    * Help run the project infrastructure
     * [TODO: other small contributions]
 * Privileges:
     * Invitations to contributor events
@@ -77,12 +77,12 @@ lowest level with clearly defined responsibilities and rights, because it is tie
 <!--TODO: project leads to fill in exact details of this role for your project-->
 Description: An Organization Member is an established contributor who regularly participates in the project. Organization Members have privileges in both project repositories and elections, and as such are expected to act in the interests of the whole project.
 
-An Organization Member must meet the responsibilites and has the requirements of a Contributor, plus:
+An Organization Member must meet the responsibilities and has the requirements of a Contributor, plus:
 
 * Responsibilities include:
     * Continues to contribute regularly, as demonstrated by having at least [TODO: Number] [TODO: Metric] a year, as demonstrated by [TODO: contributor metrics source]. <!-- Example: "as demonstrated by having at least 50 Github contributions per year, as shown by Devstats"-->
 * Requirements:
-    * Must have successful contribitons to the project, including at least one of the following:
+    * Must have successful contributions to the project, including at least one of the following:
         * [TODO: Number] accepted PRs,
         * Reviewed [TODO: Number] PRs,
         * Resolved and closed [TODO: Number] Issues,
@@ -110,7 +110,7 @@ The process for a Contributor to become an Organization Member is as follows:
 3.
 
 ### Reviewer
-<!-- Some projects have CICD systems that allow for designating people as official reviewers, whose reviews count towards a PR being accepted into the project.  Other projects offer reviewers specific recognition and status.  This role is for either of those kinds of projects. Smaller projects will not use it.-->
+<!-- Some projects have CI/CD systems that allow for designating people as official reviewers, whose reviews count towards a PR being accepted into the project.  Other projects offer reviewers specific recognition and status.  This role is for either of those kinds of projects. Smaller projects will not use it.-->
 <!--TODO: project leads to fill in exact details of this role for your project-->
 Description: A Reviewer has responsibility for specific code, documentation, test, or other project areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the project.
 
@@ -120,7 +120,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
 
 * Responsibilities include:
     * Following the reviewing guide
-    * Reviewing most Pull Requests against their specific areas of responsiblity
+    * Reviewing most Pull Requests against their specific areas of responsibility
     * Reviewing at least [TODO: Number] PRs per year
     * Helping other contributors become reviewers
 * Requirements:
@@ -132,7 +132,7 @@ Reviewers have all the rights and responsibilities of an Organization Member, pl
     * Commits to being responsible for that specific area
     * Is supportive of new and occasional contributors and helps get useful PRs in shape to commit
 * Additional privileges:
-    * Has Github or CICD rights to approve pull requests in specific directories
+    * Has Github or CI/CD rights to approve pull requests in specific directories
     * Can recommend and review other contributors to become Reviewers
     
 <!-- TODO: define how this works with your specific system.  For example:  "Is listed as Approver in the OWNERS file for certain directories. -->
@@ -150,7 +150,7 @@ The process of becoming a Reviewer is:
 
 Description: Maintainers are very established contributors who are responsible for the entire project. As such, they have the ability to approve PRs against any area of the project, and are expected to participate in making decisions about the strategy and priorities of the project.
 
-A Maintainer must meet the responsiblities and requirements of a Reviewer, plus:
+A Maintainer must meet the responsibilities and requirements of a Reviewer, plus:
 
 * Responsibilities include:
     * Reviewing at least [TODO: Number] PRs per year, especially PRs that involve multiple parts of the project
@@ -162,7 +162,7 @@ A Maintainer must meet the responsiblities and requirements of a Reviewer, plus:
 * Requirements
     * Experience as a Reviewer for at least [TODO: Number] months
     * Demonstrates a broad knowledge of the project across multiple areas
-    * Is able to exercise judgement for the good of the project, independant of their employer, friends, or team
+    * Is able to exercise judgement for the good of the project, independent of their employer, friends, or team
     * Mentors other contributors
     * Can commit to spending at least [TODO: Number] hours per month working on the project
 * Additional privileges:
@@ -187,9 +187,9 @@ The maintainers will avoid nominating new maintainers from any organization that
 <!-- ### ADDITIONAL MAINTAINER ROLES
 Some projects have additional, specifically defined maintainer roles because of leadership positions that don't fit within the general maintainer template above, including ones that have special requirements.  In addition to spelling out those requirements, defining and publishing additional maintainer roles can be a way to recruit maintainers in those specific areas, especially non-code maintainers.  Here are examples of special maintainer roles which have been defined by a variety of projects.  As all of these roles are highly dependent on exact project organization, tooling, etc., these roles are not templatable.
 
-* Subproject Maintainer: Owns a distict subproject or repository of the main project.  Responsible for everything there.  In federation projects, subproject maintainers might be the primary maintainter type.  [Example](https://github.com/kubernetes/community/blob/master/committee-steering/governance/sig-governance.md#subproject-owner)
+* Subproject Maintainer: Owns a distinct subproject or repository of the main project.  Responsible for everything there.  In federation projects, subproject maintainers might be the primary maintainer type.  [Example](https://github.com/kubernetes/community/blob/master/committee-steering/governance/sig-governance.md#subproject-owner)
 * Documentation Maintainer: for your Docs leads.  Would include specific documentation targets and experience, and maintaining publication schedules as a requirement.  [Example](https://kubernetes.io/docs/contribute/participate/roles-and-responsibilities/)
-* Localizations Maintainers: owns a particular localization, like Japanese or Brazillian Portuguese, across documentation, messages, and websites.  Responsible for making sure those get updated.
+* Localizations Maintainers: owns a particular localization, like Japanese or Brazilian Portuguese, across documentation, messages, and websites.  Responsible for making sure those get updated.
 * Program Manager: Responsible for timelines and processes within the project, such as bug triage, review timelines, etc.
 * Release Manager: owns the release process, either always, cyclically, or per-release.  Responsible for getting releases out on time.  [Example](https://github.com/kubernetes/sig-release/tree/master/release-team/role-handbooks/release-team-lead)
 * Patch Maintainer: sometimes different from the release manager, owns the tooling, team, and schedule for patching stable releases. [Example](https://github.com/kubernetes/sig-release/blob/master/release-engineering/role-handbooks/patch-release-team.md)
@@ -199,7 +199,7 @@ Some projects have additional, specifically defined maintainer roles because of 
 
 ## Inactivity
 <!--TODO: project leads to fill in exact details for how you measure inactivity for your project-->
-It is important for contributors to be and stay active to set an example and show committment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a lost of trust in the project.
+It is important for contributors to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a lost of trust in the project.
 
 * Inactivity is measured by:
     * Periods of no contributions for longer than [TODO: Number] months
@@ -210,14 +210,14 @@ It is important for contributors to be and stay active to set an example and sho
 
 ## Involuntary Removal or Demotion
 
-Involuntary removal/demotion of a contributor happens when responsibilites and requirements aren't being met. This may include repeated pattern of inactivity, extended period of inactivity, a period of failing to meet the requirements of your role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opens up opportunities for new contributors to step in.
+Involuntary removal/demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended period of inactivity, a period of failing to meet the requirements of your role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opens up opportunities for new contributors to step in.
 
 <!-- TODO: replace with your method of removing/demoting contributors.  If you have a formal governance structure, this would be a good place to assign this to your governance, such as a Steering Committee.
 Again, the example below is for a project without formal governance except the maintainers.-->
 Involuntary removal or demotion is handled through a vote by a majority of the current Maintainers.
 
 ## Stepping Down/Emeritus Process
-If and when contributors' committment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
+If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
 
 Contact the Maintainers about changing to Emeritus status, or reducing your contributor level.
 
