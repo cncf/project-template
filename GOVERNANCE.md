@@ -6,7 +6,7 @@ adopt them, choose the one closest to how you want your project to be governed,
 then rename the appropriate `GOVERNANCE-xxx.md` file to GOVERNANCE.md,
 overwriting this file, and customize it.  
 
-See the Contributor Strategy document on [Leadership Selection](https://github.com/cncf/sig-contributor-strategy/blob/master/governance/docs/leadership_selection.md)
+See the Contributor Strategy document on [Leadership Selection](https://contribute.cncf.io/maintainers/governance/leadership-selection/)
 for more background.  Please also review [SustainOSS's Governance Readiness Checklist](https://sustainers.github.io/governance-readiness/)
 as preparation for making governance decisions.
 
