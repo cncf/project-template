@@ -33,7 +33,8 @@ of [TODO:Goals of umbrella project].  Our governance reflects this federated str
 openness, distributed design, fairness, diversity, etc.
 
 References and Examples
-* https://www.apache.org/theapacheway/ https://kubernetes.io/community/values/
+* https://www.apache.org/theapacheway/
+* https://kubernetes.io/community/values/
 
 See https://contribute.cncf.io/maintainers/governance/charter for guidance and
 additional examples.  The values below are just example values as a jumping-off
