@@ -42,7 +42,7 @@ point for your project's actual values.  -->
 
 The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
-* Openness: Communication happens in the open and is archived for future
+* Openness: Communication and decision-making happens in the open and is discoverable for future
   reference. As much as possible, all discussions and work take place in public
   forums and open repositories.
 
@@ -54,10 +54,10 @@ The [TODO: PROJECTNAME] and its leadership embrace the following values:
   contributor participates in the project as an individual.
 
 * Inclusivity: We innovate through different perspectives and skill sets, which
-  can only be heard in a welcoming and respectful environment.
+  can only be accomplished in a welcoming and respectful environment.
 
-* Participation: Responsibilies within the project are earned through
-  participation, and there is a clear path up the ladder into leadership
+* Participation: Responsibilities within the project are earned through
+  participation, and there is a clear path up the contributor ladder into leadership
   positions.
 
 ## Individual Project Governance
@@ -208,5 +208,5 @@ from [TODO:PROJECTNAME]. Any Steering Committee member may propose removal of a 
 these grounds, and Steering can confirm this with a majority vote.
 
 Projects which still have contributors will then be moved to a repository in their
-own namespace.  Projects which have ceased all activity are moved to a
+own namespace. Projects which have ceased all activity are moved to a
 [TODO:Name of archive namespace] namespace.
