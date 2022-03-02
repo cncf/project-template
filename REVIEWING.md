@@ -4,11 +4,11 @@ Follow the instructions at [HowTo: Make a reviewing.md][howto] file to complete 
 
 This document covers who may review pull requests for this project, and provides guidance on how to perform code reviews that meet our community standards and code of conduct. All reviewers must read this document and agree to follow the project review guidelines. Reviewers who do not follow these guidelines may have their privileges revoked.
 
-[howto]: https://contribute.cncf.io/maintainers/github/templates/optional/reviewing/
+[howto]: https://contribute.cncf.io/maintainers/github/templates/recommended/reviewing/
 
 ## The Reviewer Role
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/optional/reviewing/#the-reviewing-role)
+[Instructions](https://contribute.cncf.io/maintainers/github/templates/recommended/reviewing/#the-reviewing-role)
 
 ⚠️ **Pick the statement that matches the reviewer role for your project**
 
@@ -20,7 +20,7 @@ The reviewer role is distinct from the maintainer role. Reviewers can approve a 
 
 ## Values
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/optional/reviewing/#values)
+[Instructions](https://contribute.cncf.io/maintainers/github/templates/recommended/reviewing/#values)
 
 
 All reviewers must abide by the [Code of Conduct](CODE_OF_CONDUCT.md) and are also protected by it. A reviewer should not tolerate poor behavior and is encouraged to report any behavior that violates the Code of Conduct. All of our values listed above are distilled from our Code of Conduct.
@@ -49,14 +49,14 @@ Be trustworthy. During a review, your actions both build and help maintain the t
 
 ## Process
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/optional/reviewing/#process)
+[Instructions](https://contribute.cncf.io/maintainers/github/templates/recommended/reviewing/#process)
 
 ⚠️ **Define your project's review process**
 
 
 ## Checklist
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/optional/reviewing/#checklist)
+[Instructions](https://contribute.cncf.io/maintainers/github/templates/recommended/reviewing/#checklist)
 
 Below are a set of common questions that apply to all pull requests:
 
