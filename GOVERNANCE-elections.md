@@ -20,6 +20,7 @@ the project values and structure.
 This governance  is an open, living document, and will continue to
 evolve as the community and project change.
 
+- [Values](#values)
 - [Charter](#charter)
 - [Delegated authority](#delegated-authority)
 - [Committee Meetings](#committee-meetings)
@@ -36,6 +37,40 @@ evolve as the community and project change.
 - [Vacancies](#vacancies)
 - [Changes to the charter](#changes-to-the-charter)
 - [Authority, Facilitation, and Decision Making](#authority-facilitation-and-decision-making)
+
+## Values
+
+<!-- This is where you put the core values or principles of your project, like
+openness, distributed design, fairness, diversity, etc.
+
+References and Examples
+* https://www.apache.org/theapacheway/
+* https://kubernetes.io/community/values/
+
+See https://contribute.cncf.io/maintainers/governance/charter for guidance and
+additional examples.  The values below are just example values as a jumping-off
+point for your project's actual values.  -->
+
+The [TODO: PROJECTNAME] and its leadership embrace the following values:
+
+* Openness: Communication and decision-making happens in the open and is discoverable for future
+  reference. As much as possible, all discussions and work take place in public
+  forums and open repositories.
+
+* Fairness: All stakeholders have the opportunity to provide feedback and submit
+  contributions, which will be considered on their merits.
+
+* Community over Product or Company: Sustaining and growing our community takes
+  priority over shipping code or sponsors' organizational goals.  Each
+  contributor participates in the project as an individual.
+
+* Inclusivity: We innovate through different perspectives and skill sets, which
+  can only be accomplished in a welcoming and respectful environment.
+
+* Participation: Responsibilities within the project are earned through
+  participation, and there is a clear path up the contributor ladder into leadership
+  positions.
+
 
 ## Charter
 
