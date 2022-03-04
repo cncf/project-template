@@ -41,3 +41,7 @@ from the README.md leaving only your finished README content for your project. -
 # Project Name
 
 <!-- TODO: Edit the project name heading and include a description of the project -->
+
+# License
+$PROJECT_NAME is licensed under an [Apache 2.0 license](./LICENSE).
+The #PROJECT_NAME documentation is licensed under a [CC-BY-4.0 license](./LICENSE-docs). 
