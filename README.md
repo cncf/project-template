@@ -28,16 +28,10 @@ when you view the markdown file in GitHub unless you view the raw text.
 
 * [LICENSE](LICENSE)
 * [CONTRIBUTING.md](CONTRIBUTING.md)
-* [README.md](README.md)
+* [README-template.md](README-template.md)
 
 [template-repo]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
 [contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
 
-<!-- TODO: After you have finished customizing the templates, remove this line and everything above
-from the README.md leaving only your finished README content for your project. -->
-
----
-
-# Project Name
-
-<!-- TODO: Edit the project name heading and include a description of the project -->
+Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md)
+as a template for your project README.
