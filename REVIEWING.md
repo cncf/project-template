@@ -1,6 +1,6 @@
-# reviewing.md
+# Reviewing Guide
 
-Follow the instructions at [HowTo: Make a reviewing.md][howto] file to complete the following sections.
+Follow the instructions at [HowTo: Make a Reviewing Guide][howto] file to complete the following sections.
 
 This document covers who may review pull requests for this project, and provides guidance on how to perform code reviews that meet our community standards and code of conduct. All reviewers must read this document and agree to follow the project review guidelines. Reviewers who do not follow these guidelines may have their privileges revoked.
 
@@ -74,5 +74,3 @@ Reviewers are encouraged to read the following articles for help with common rev
 * [The Art of Closing: How to closing an unfinished or rejected pull request](https://blog.jessfraz.com/post/the-art-of-closing/)
 * [Kindness and Code Reviews: Improving the Way We Give Feedback](https://product.voxmedia.com/2018/8/21/17549400/kindness-and-code-reviews-improving-the-way-we-give-feedback)
 * [Code Review Guidelines for Humans: Examples of good and back feedback](https://phauer.com/2018/code-review-guidelines/#code-reviews-guidelines-for-the-reviewer)
-
-
