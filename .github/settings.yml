@@ -62,6 +62,13 @@ collaborators:
   - username: iennae
     permission: push
 
+  # Current TOC liaisons
+  - username: mattfarina
+    permission: push
+  
+  - username: kgamanji
+    permission: push
+
 labels:
   - name: help-wanted
     color: ffff54
