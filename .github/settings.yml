@@ -72,6 +72,17 @@ collaborators:
 labels:
   - name: help-wanted
     color: ffff54
+  - name: good first issue
+    color: ff8c00
+  - name: wg/governance
+    color: 2f4f4f
+  - name: wg/maintainer
+    color: 00ffff
+  - name: wg/contribgrowth
+    color: ff00ff
+  - name: needs-toc-approval
+    description: Requires approval from the TOC before merging to main
+    color: b60205
 
 # additional colors in this palette:
 # 7f0000 , 1e90ff, ffdab9, ff69b4
