@@ -108,7 +108,7 @@ Licensing is important to open source projects. It provides some assurances that
 the software will continue to be available based under the terms that the
 author(s) desired. We require that contributors sign off on commits submitted to
 our project's repositories. The [Developer Certificate of Origin
-(DCO)](https://developercertificate.org/) is a way to certify that you wrote and
+(DCO)](https://probot.github.io/apps/dco/) is a way to certify that you wrote and
 have the right to contribute the code you are submitting to the project.
 
 You sign-off by adding the following to your commit messages. Your sign-off must
