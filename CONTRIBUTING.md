@@ -1,7 +1,5 @@
 # Contributing Guide
 
-Follow the instructions at [HowTo: Make a Contributing Guide][howto] file to complete the following sections.
-
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#introduction)
 
 * [New Contributor Guide](#contributing-guide)
@@ -45,7 +43,7 @@ Not everything happens through a GitHub pull request. Please come to our
 [meetings](TODO) or [contact us](TODO) and let's discuss how we can work
 together. 
 
-### Come to meetings!
+### Come to Meetings
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#come-to-meetings)
 
@@ -70,7 +68,7 @@ your first pull request.
 
 Sometimes there won’t be any issues with these labels. That’s ok! There is
 likely still something for you to work on. If you want to contribute but you
-don’t know where to start or can't find a suitable issue, you can contact [TODO](TODO)
+don’t know where to start or can't find a suitable issue, you can ⚠️ **explain how people can ask for an issue to work on**.
 
 Once you see an issue that you'd like to work on, please post a comment saying
 that you want to work on it. Something like "I want to work on this" is fine.
@@ -79,31 +77,38 @@ that you want to work on it. Something like "I want to work on this" is fine.
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#ask-for-help)
 
-The best way to reach us with a question when contributing is to ask on TODO.
+The best way to reach us with a question when contributing is to ask on:
+
+⚠️ **Pick the way(s) that you prefer people ask for help**
+
+* The original github issue
+* The developer mailing list
+* Our Slack channel
 
 ## Pull Request Lifecycle
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#pull-request-lifecycle)
 
-⚠️ **Explain your project's review process**
+⚠️ **Explain your pull request process**
 
 ## Development Environment Setup
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#development-environment-setup)
 
-⚠️ **Explain how to set up a development environment for your project**
+⚠️ **Explain how to set up a development environment**
 
 ## Sign Your Commits
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#sign-your-commits)
+[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/sign-your-commits)
+
+⚠️ **Keep either the DCO or CLA section depending on which you use**
 
 ### DCO
-
 Licensing is important to open source projects. It provides some assurances that
 the software will continue to be available based under the terms that the
 author(s) desired. We require that contributors sign off on commits submitted to
 our project's repositories. The [Developer Certificate of Origin
-(DCO)](https://developercertificate.org/) is a way to certify that you wrote and
+(DCO)](https://probot.github.io/apps/dco/) is a way to certify that you wrote and
 have the right to contribute the code you are submitting to the project.
 
 You sign-off by adding the following to your commit messages. Your sign-off must
@@ -123,14 +128,11 @@ repository, you can amend your commit with the sign-off by running
     git commit --amend -s 
 
 ### CLA
-
 We require that contributors have signed our Contributor License Agreement (CLA). 
 
-⚠️ **Explain the CLA signing process**
+⚠️ **Explain how to sign the CLA**
 
 ## Pull Request Checklist
-
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#pull-request-checklist)
 
 When you submit your pull request, or you push new commits to it, our automated
 systems will run some checks on your new code. We require that your pull request
@@ -138,4 +140,4 @@ passes these checks, but we also have more criteria than just that before we can
 accept and merge it. We recommend that you check the following things locally
 before you submit your code:
 
-⚠️ **Provide a checklist that contributors should run through before submitting**
+⚠️ **Create a checklist that authors should use before submitting a pull request**
