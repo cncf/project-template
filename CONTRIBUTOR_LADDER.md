@@ -23,7 +23,7 @@ Particularly, this file provides you with a menu of options for your project.  M
 
 Hello! We are excited that you want to learn more about our project contributor ladder! This contributor ladder outlines the different contributor roles within the project, along with the responsibilities and privileges that come with them. Community members generally start at the first levels of the "ladder" and advance up it as their involvement in the project grows.  Our project members are happy to help you advance along the contributor ladder.
 
-Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
+Each of the contributor roles below is organized into lists of three types of things. "Responsibilities" are things that a contributor is expected to do. "Requirements" are qualifications a person needs to meet to be in that role, and "Privileges" are things contributors on that level are entitled to.
 
 
 ### Community Participant
@@ -34,7 +34,7 @@ define it and leave this section out.-->
 Description: A Community Participant engages with the project and its community, contributing their time, thoughts, etc. Community participants are usually users who have stopped being anonymous and started being active in project discussions.
 
 * Responsibilities:
-    * Must follow the CNCF CoC
+    * Must follow the [CNCF CoC](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
 * How users can get involved with the community:
     * Participating in community discussions
     * Helping other users
@@ -162,7 +162,7 @@ A Maintainer must meet the responsibilities and requirements of a Reviewer, plus
 * Requirements
     * Experience as a Reviewer for at least [TODO: Number] months
     * Demonstrates a broad knowledge of the project across multiple areas
-    * Is able to exercise judgement for the good of the project, independent of their employer, friends, or team
+    * Is able to exercise judgment for the good of the project, independent of their employer, friends, or team
     * Mentors other contributors
     * Can commit to spending at least [TODO: Number] hours per month working on the project
 * Additional privileges:
