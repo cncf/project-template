@@ -56,6 +56,9 @@ follow through to fix issues (in code or tests).
 A maintainer is a contributor to the project's success and a citizen helping
 the project succeed.
 
+The collective team of all Maintainers is known as the Maintainer Council, which
+is the governing body for the project.
+
 ### Becoming a Maintainer
 
 To become a Maintainer you need to demonstrate the following:
@@ -90,7 +93,7 @@ Inactivity is defined as a period of very low or no activity in the project
 for a year or more, with no definite schedule to return to full Maintainer 
 activity.
 
-A Maintainer may be removed at an time by a 2/3 vote of the remaining maintainers.
+A Maintainer may be removed at any time by a 2/3 vote of the remaining maintainers.
 
 Depending on the reason for removal, a Maintainer may be converted to Emeritus
 status.  Emeritus Maintainers will still be consulted on some project matters,
