@@ -1,14 +1,11 @@
-# Project Governance
+# [TODO:PROJECTNAME] Project Governance
 
-This is an example governance document for projects that use the very common
-"maintainer council" system of governance.  See [GOVERNANCE.md](/GOVERNANCE.md)
-for more information.  Thanks to the Jaeger Project for portions of the text
-below.
+[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-maintainer/)
 
-This is a template document for CNCF projects that requires editing
-before it is ready to use. Read the markdown comments, `<!-- COMMENT -->`, for
-additional guidance. The raw markdown uses `TODO` to identify areas that
-require customization.  Replace [TODO: PROJECTNAME] with the name of your project.
+<!-- template begins here-->
+
+The [TODO:PROJECTNAME]  project is dedicated to creating [TODO:Goals of project].  
+This goverance explains how the project is run.
 
 - [Values](#values)
 - [Maintainers](#maintainers)
@@ -16,20 +13,11 @@ require customization.  Replace [TODO: PROJECTNAME] with the name of your projec
 - [Meetings](#meetings)
 - [CNCF Resources](#cncf-resources)
 - [Code of Conduct Enforcement](#code-of-conduct)
+- [Security Response Team](#security-response-team)
 - [Voting](#voting)
+- [Modifications](#modifying-this-charter)
 
 ## Values
-
-<!-- This is where you put the core values or principles of your project, like
-openness, distributed design, fairness, diversity, etc.
-
-References and Examples
-* https://www.apache.org/theapacheway/
-* https://kubernetes.io/community/values/
-
-See https://contribute.cncf.io/maintainers/governance/charter for guidance and
-additional examples.  The values below are just example values as a jumping-off
-point for your project's actual values.  -->
 
 The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
@@ -55,7 +43,7 @@ The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
 [TODO: PROJECTNAME] Maintainers have write access to the [project GitHub repository](TODO).
 They can merge their own patches or patches from others. The current maintainers
-can be found in [OWNERS](./OWNERS).  Maintainers collectively manage the project's
+can be found in [MAINTAINERS.md](./MAINTAINERS.md).  Maintainers collectively manage the project's
 resources and contributors.
 
 This privilege is granted with some expectation of responsibility: maintainers
@@ -68,11 +56,10 @@ follow through to fix issues (in code or tests).
 A maintainer is a contributor to the project's success and a citizen helping
 the project succeed.
 
-## Becoming a Maintainer
+The collective team of all Maintainers is known as the Maintainer Council, which
+is the governing body for the project.
 
-<!-- If you have full Contributor Ladder documentation that covers becoming
-a Maintainer or Owner, then this section should instead be a reference to that
-documentation -->
+### Becoming a Maintainer
 
 To become a Maintainer you need to demonstrate the following:
 
@@ -89,10 +76,28 @@ To become a Maintainer you need to demonstrate the following:
 
 A new Maintainer must be proposed by an existing maintainer by sending a message to the
 [developer mailing list](TODO: List Link). A simple majority vote of existing Maintainers
-approves the application.
+approves the application.  Maintainers nominations will be evaluated without prejudice
+to employer or demographics.
 
 Maintainers who are selected will be granted the necessary GitHub rights,
 and invited to the [private maintainer mailing list](TODO).
+
+### Removing a Maintainer
+
+Maintainers may resign at any time if they feel that they will not be able to
+continue fulfilling their project duties.
+
+Maintainers may also be removed after being inactive, failure to fulfill their 
+Maintainer responsibilities, violating the Code of Conduct, or other reasons.
+Inactivity is defined as a period of very low or no activity in the project 
+for a year or more, with no definite schedule to return to full Maintainer 
+activity.
+
+A Maintainer may be removed at any time by a 2/3 vote of the remaining maintainers.
+
+Depending on the reason for removal, a Maintainer may be converted to Emeritus
+status.  Emeritus Maintainers will still be consulted on some project matters,
+and can be rapidly returned to Maintainer status if their availability changes.
 
 ## Meetings
 
@@ -112,29 +117,42 @@ Any Maintainer may suggest a request for CNCF resources, either in the
 [mailing list](TODO: link to developer/maintainer mailing list), or during a
 meeting.  A simple majority of Maintainers approves the request.  The Maintainers
 may also choose to delegate working with the CNCF to non-Maintainer community
-members.
+members, who will then be added to the [CNCF's Maintainer List](https://github.com/cncf/foundation/blob/main/project-maintainers.csv)
+for that purpose.
 
 ## Code of Conduct
 
-<!-- This assumes that your project does not have a separate Code of Conduct
-Committee; most maintainer-run projects do not.  Remember to place a link
-to the private Maintainer mailing list or alias in the code-of-conduct file.-->
-
 [Code of Conduct](./code-of-conduct.md)
 violations by community members will be discussed and resolved
-on the [private Maintainer mailing list](TODO).  If the reported CoC violator
-is a Maintainer, the Maintainers will instead designate two Maintainers to work
-with CNCF staff in resolving the report.
+on the [private Maintainer mailing list](TODO).  If a Maintainer is directly involved
+in the report, the Maintainers will instead designate two Maintainers to work
+with the CNCF Code of Conduct Committee in resolving it.
+
+## Security Response Team
+
+The Maintainers will appoint a Security Response Team to handle security reports.
+This committee may simply consist of the Maintainer Council themselves.  If this
+responsibility is delegated, the Maintainers will appoint a team of at least two 
+contributors to handle it.  The Maintainers will review who is assigned to this
+at least once a year.
+
+The Security Response Team is responsible for handling all reports of security
+holes and breaches according to the [security policy](TODO:Link to security.md).
 
 ## Voting
 
-While most business in [TODO: PROJECTNAME] is conducted by "lazy consensus", periodically
-the Maintainers may need to vote on specific actions or changes.
+While most business in [TODO: PROJECTNAME] is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)", 
+periodically the Maintainers may need to vote on specific actions or changes.
 A vote can be taken on [the developer mailing list](TODO) or
 [the private Maintainer mailing list](TODO) for security or conduct matters.  
 Votes may also be taken at [the developer meeting](TODO).  Any Maintainer may
 demand a vote be taken.
 
-Most votes require a simple majority of all Maintainers to succeed. Maintainers
-can be removed by a 2/3 majority vote of all Maintainers, and changes to this
-Governance require a 2/3 vote of all Maintainers.
+Most votes require a simple majority of all Maintainers to succeed, except where
+otherwise noted.  Two-thirds majority votes mean at least two-thirds of all 
+existing maintainers.
+
+## Modifying this Charter
+
+Changes to this Governance and its supporting documents may be approved by 
+a 2/3 vote of the Maintainers.
