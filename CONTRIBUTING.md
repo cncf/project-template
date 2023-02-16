@@ -99,7 +99,7 @@ The best way to reach us with a question when contributing is to ask on:
 
 ## Sign Your Commits
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/sign-your-commits)
+[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#sign-your-commits)
 
 ⚠️ **Keep either the DCO or CLA section depending on which you use**
 
