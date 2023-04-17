@@ -269,13 +269,10 @@ project Member as defined in
 
 ### Voting Procedure
 
-<!-- Note: CNCF will be in a position to offer a more modern replacement for
-CIVS by the end of 2021 -->
 Elections will be held using a time-limited
 [Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) ranking on
-[CIVS](http://civs.cs.cornell.edu/) using the IRV method. The top
-vote-getters will be elected to the open seats, with the exceptions for company
-representation discussed below.
+using the IRV method. The top vote-getters will be elected to the open seats,
+with the exceptions for company representation discussed below.
 
 ### Limitations on Company Representation
 
