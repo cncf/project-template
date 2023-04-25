@@ -1,14 +1,6 @@
 # Steering Committee Governance
 
-This is an example governance document for projects that use steering committee
-elections from the contributors at large.  See [GOVERNANCE.md](/GOVERNANCE.md)
-for more information.  Thanks to the Kubernetes Project for portions of the text
-below.
-
-This is a template document for CNCF projects that requires editing
-before it is ready to use. Read the markdown comments, `<!-- COMMENT -->`, for
-additional guidance. The raw markdown uses `TODO` to identify areas that
-require customization.  Replace [TODO: PROJECTNAME] with the name of your project.
+[Instructions](https://contribute.cncf.io/maintainers/templates/governance-elections/)
 
 <!-- template begins here-->
 
@@ -40,16 +32,7 @@ evolve as the community and project change.
 
 ## Values
 
-<!-- This is where you put the core values or principles of your project, like
-openness, distributed design, fairness, diversity, etc.
-
-References and Examples
-* https://www.apache.org/theapacheway/
-* https://kubernetes.io/community/values/
-
-See https://contribute.cncf.io/maintainers/governance/charter for guidance and
-additional examples.  The values below are just example values as a jumping-off
-point for your project's actual values.  -->
+[TODO: REPLACE the values below with your project's actual values]
 
 The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
@@ -95,8 +78,6 @@ various project areas and subprojects, as defined in the appropriate OWNERS file
   privileges that entails.
 * Control and delegate access to and establish processes regarding all project
   repositories, resources, and assets.
-<!-- assumes a separate Code of Conduct Committee, which is expected for
- any project mature enough to need a Steering Committee-->
 * Appointing the members of the Code of Conduct Committee in order to ensure
   responsiveness, diversity, and good judgement.
 
@@ -107,11 +88,6 @@ as-needed. The committee currently recognizes this delegated authority for:
 
 - [TODO: List of Delegated Authorities]
 
-<!-- Above put a list of powers of the SC that are being handled by some other
-group or person.  For example, you may have a Marketing Committee that handles
-all work with CNCF marketing, or a different body that handles escalated
-technical disputes.-->
-
 ## Committee Meetings
 
 The Steering Committee meets [TODO: frequency of meetings], or as-needed.
@@ -120,7 +96,6 @@ Meetings are held online, and are public by default.
 Given the private nature of some of these discussions (e.g. privacy, private
 emails to the committee, code of conduct violations, escalations, disputes
 between members, security reports, etc.) some meetings are held in private.
-<!-- consider setting up a cadence of private vs. public meetings here-->
 
 Meeting notes are available to members of the
 [developer mailing list](TODO).
@@ -173,28 +148,9 @@ The steering committee has [TODO: Number] seats. These seats are
 open to any project contributor. See
 [candidate eligibility](#candidate-eligibility) for a definition.
 
-<!-- if doing staggered terms, which is recommended.  These are usually 2-year
-terms.-->
-
 Steering Committee members serve for [TODO: Service Period] terms, staggered in order to
 preserve continuity. Every year either [TODO:Number] or [TODO:Remainder]
 contributor seats are elected.
-
-<!-- if doing elect-everyone-at-once terms, instead use:
-
-Steering Committee members serve for [TODO: Service Period] terms, elected
-every [TODO: Service Period]
-
--->
-
-<!-- If you are starting from scratch, and need a transition period, but plan
-to have staggered 2-year terms, we recommend the following:
-
-For the first year of the Steering Committee, [TODO: Year], [TODO: Number] of the
-seats will be elected for a 1-year term, and [TODO: Number] will be elected for
-a 2-year term.
-
--->
 
 ## Election Procedure
 
@@ -243,9 +199,6 @@ will then review and determine whether this member should be eligible to vote.
 All exceptions, and the reasons for them, will be recorded and saved by the
 officers.
 
-<!-- Note: CNCF will soon have a better, GitOps-driven, online election tool
-available.  At that time, projects will want to revise this process. -->
-
 The electoral roll of all eligible voters will be captured at [TODO: Github election
 location] and the voters’ guide will
 be captured at [TODO: Github Election info location],
@@ -269,13 +222,10 @@ project Member as defined in
 
 ### Voting Procedure
 
-<!-- Note: CNCF will be in a position to offer a more modern replacement for
-CIVS by the end of 2021 -->
 Elections will be held using a time-limited
 [Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) ranking on
-[CIVS](http://civs.cs.cornell.edu/) using the IRV method. The top
-vote-getters will be elected to the open seats, with the exceptions for company
-representation discussed below.
+using the IRV method. The top vote-getters will be elected to the open seats,
+with the exceptions for company representation discussed below.
 
 ### Limitations on Company Representation
 
