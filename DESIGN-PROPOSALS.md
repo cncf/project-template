@@ -6,6 +6,17 @@
 
 **(optional) Status: **implementable, accepted, deferred, rejected, withdrawn, or replaced
 
+**Checklist**:
+
+- [ ] Prerequisite 1
+- [ ] Prerequisite 2
+- [ ] Component 1
+- [ ] Component 2
+- [ ] Docs
+- [ ] Tests
+
+
+
 ## Summary/Abstract
 
 Provide a high-level summary of the proposed change. Keep it short.
