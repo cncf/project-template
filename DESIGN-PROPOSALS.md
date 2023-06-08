@@ -1,6 +1,6 @@
 # Design Proposal Template
 
-**Authors**: alice alice@example.com, bob jones [bob@example.com](mailto:bob@example.com)
+**Authors**: alice alice@example.com, bob jones bob@example.com
 
 **Begin Design Discussion**: YYYY-MM-DD
 
@@ -29,7 +29,7 @@ Provide the motivation for the feature and any context required to understand th
 
 It is vital for projects to be able to track the chain of custody for a proposed enhancement from conception through implementation which can sometimes be difficult to do in a single Github issue, especially when it is a larger design decision or cuts across multiple areas of the project.
 
-The purpose of the design proposal processes is to reduce the amount of "siloed knowledge" in a community. By moving decisions from a smattering of mailing lists, video calls, slack messages, Github exchanges, and hallway conversations into a well tracked artifact, the process aims to enhance communication and discoverability.
+The purpose of the design proposal processes is to reduce the amount of "siloed knowledge" in a community. By moving decisions from a smattering of mailing lists, video calls, slack messages, GitHub exchanges, and hallway conversations into a well tracked artifact, the process aims to enhance communication and discoverability.
 
 ## (Optional) User/User Story
 
@@ -37,7 +37,7 @@ Detail the things that people will be able to do with the feature if it is imple
 
 ## Goals
 
-The desired goal and list goals that the design achieves. What is it trying to achieve? How will you know that it has succeeded?
+List the desired goal or goals that the design is intended to achieve. These goals can be leveraged to structure and scope the design and discussions and may be reused as the "definition of done" -  the criteria you use to know the implementation of the design has succeeded in accomplishing its goals.
 
 ## Non-Goals
 
@@ -45,7 +45,7 @@ Describe what is out of scope for the design proposal. Listing non-goals helps t
 
 ## Proposal
 
-This is where we get down to the specifics of what the proposal actually is. It should have enough detail that reviewers can understand exactly what you're proposing, but should not include things like API designs or implementation. Describe the desired outcome and how to measure success.
+This is where we get down to the specifics of what the proposal actually is. It should have enough detail that reviewers can understand exactly what you're proposing, but should not include things like API designs or implementation. This section should expand on the desired outcome and include details on how to measure success.
 
 ## Design Details
 
@@ -55,12 +55,12 @@ This section should contain enough information that the specifics of the change 
 
 List crucial impacts and key questions, some of which may still be open. They likely require discussion and are required to understand the trade-offs of the design. During the lifecycle of a design proposal, discussion on design aspects can be moved into this section. After reading through this section, it should be possible to understand any potentially negative or controversial impact of the design. It should also be possible to derive the key design questions: X vs Y.
 
-This will also help people understand the caveats to the proposal, other important details that didn't come across above, and alternatives that could be considered. It can also be a good place to talk about core concepts and how they relate. It can be helpful to explicitly list the pros and cons of each decision
+This will also help people understand the caveats to the proposal, other important details that didn't come across above, and alternatives that could be considered. It can also be a good place to talk about core concepts and how they relate. It can be helpful to explicitly list the pros and cons of each decision. Later, this information can be reused to update project documentation, guides, and Frequently Asked Questions (FAQs).
 
 ### Pros
-
+Pros are defined as the benefits and positive aspects of the design as described. It should further reinforce how and why the design meets its goals and intended outcomes. This is a good place to check for any assumptions that have been made in the design.
 ### Cons
-
+Cons are defined as the negative aspects or disadvantages of the design as described. This section has the potential to capture outstanding challenge areas or future improvements needed for the project and could be referenced in future PRs and issues. This is also a good place to check for any assumptions that have been made in the design.
 ## Risks and Mitigations
 
 Describe the risks of this proposal and how they can be mitigated. This should be broadly scoped and describe how it will impact the larger ecosystem. It should include drawbacks to the proposed solution and consider the security implications of the changes too.
@@ -90,4 +90,4 @@ Describe how the design scales, especially how changes API calls, resource usage
 
 ### Implementation Phases/History
 
-Detail is the design will get broken up into multiple phases and/or track the major milestones in the lifecycle of the design proposal.
+Describe the development and implementation phases planned to break up the work and/or record them here as they occur. Provide enough detail so readers may track the major milestones in the lifecycle of the design proposal and correlate them with issues, PRs, and releases occurring within the project.
