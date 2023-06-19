@@ -90,7 +90,7 @@ When attempting to identify security implications of the changes, consider the f
 * Does the change alter the permissions or access of users, services, components - this could be an improvement or downgrade or even just a different way of doing it?
 * Does the change alter the flow of information, events, and logs stored, processed, or transmitted?
 * Does the change increase the 'surface area' exposed - meaning, if an operator of the project or user were to go rogue or be uninformed in its operation, do they have more areas that could be manipulated unfavorably?
-* What existing security features, controls, or boundaries would be affected by this change? ```
+* What existing security features, controls, or boundaries would be affected by this change?
 
 This section can also be combined into the one above.
 
