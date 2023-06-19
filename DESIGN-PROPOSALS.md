@@ -21,11 +21,21 @@
 
 Provide a high-level summary of the proposed change. Keep it short.
 
-This design process is usually around adding a series of standards around recording change notes for the project. The intent is to make the process of building the release changelog faster and easier and track decisions for the future. It is usually a combination of a feature and effort-tracking document, a product requirements document, and a design document.
+This design process establishes a series of standard practices for planning and recording features or changes proposed for the project. The intent is to provide the project a consistent means to track decisions for historical reference and future plans while fully capturing how the feature or change will come to be. Additional benefits include making the process of building the release changelog easier and faster when the feature or change is ready to be released. It is a combination of a feature and effort-tracking document, a product requirements document, and a design document.
 
-## Background/Motivation
+## Background
 
-Provide the motivation for the feature and any context required to understand the motivation. The motivation should justify any potential impact and why it is important. Often these proposals start as an issue, forum post, email and it's helpful to link to it in this section to provide context and credit the right people for the idea.
+### Motivation and problem space
+
+Describe the need, problem, and motivation for the feature or change and any context required to understand the motivation. 
+
+### Impact and desired outcome
+
+Describe any potential impact this feature or change would have. Readers should be able to understand why the feature or change is important. Briefly describe the desired outcome if the change or feature were implemented as designed. 
+
+### Prior discussion and links
+
+Often these proposals start as an issue, forum post, email and it's helpful to link to those resources in this section to provide context and credit the right people for the idea.
 
 It is vital for projects to be able to track the chain of custody for a proposed enhancement from conception through implementation which can sometimes be difficult to do in a single Github issue, especially when it is a larger design decision or cuts across multiple areas of the project.
 
@@ -33,7 +43,7 @@ The purpose of the design proposal processes is to reduce the amount of "siloed 
 
 ## (Optional) User/User Story
 
-Detail the things that people will be able to do with the feature if it is implemented. Include as much detail as possible so that people can understand the "how" of the system. This can also be combined with the background/motivation above.
+Define who your the intended users of the feature or change are. Detail the things that your users will be able to do with the feature if it is implemented. Include as much detail as possible so that people can understand the "how" of the system. This can also be combined with the prior sections.
 
 ## Goals
 
@@ -49,7 +59,16 @@ This is where we get down to the specifics of what the proposal actually is. It 
 
 ## Design Details
 
-This section should contain enough information that the specifics of the change are understandable. This may include API specs (though not always required) or even code snippets. If there's any ambiguity about HOW your proposal will be implemented, this is the place to discuss them. This can also be combined with the proposal section above. It should also address how the solution is backward compatible and how to deal with these incompatibilities, possibly with defaulting or migrations.
+This section should contain enough information to allow the following to occur:
+* potential contributors understand how the feature or change should be implemented
+* users or operators understand how the feature of change is expected to function and interact with other components of the project
+* users or operators can take action to pre-plan any needed changes within their architecture that impacted by the upcoming feature or change if it's approved for implementation
+* decisions or opinions on a specific approach are fully discussed and explained
+* users, operators, and contributors can gain a comprehensive understanding of compatibility of the feature or change with past releases of the project.
+
+This may include API specs (though not always required), code snippets, data flow diagrams, sequence diagrams, etc. 
+
+If there's any ambiguity about HOW your proposal will be implemented, this is the place to discuss them. This can also be combined with the proposal section above. It should also address how the solution is backward compatible and how to deal with these incompatibilities, possibly with defaulting or migrations. It may be useful to refer back to the goals and non-goals to assist in articulating the "why" behind your approach.
 
 ## Impacts / Key Questions
 
@@ -63,7 +82,15 @@ Pros are defined as the benefits and positive aspects of the design as described
 Cons are defined as the negative aspects or disadvantages of the design as described. This section has the potential to capture outstanding challenge areas or future improvements needed for the project and could be referenced in future PRs and issues. This is also a good place to check for any assumptions that have been made in the design.
 ## Risks and Mitigations
 
-Describe the risks of this proposal and how they can be mitigated. This should be broadly scoped and describe how it will impact the larger ecosystem. It should include drawbacks to the proposed solution and consider the security implications of the changes too.
+Describe the risks of this proposal and how they can be mitigated. This should be broadly scoped and describe how it will impact the larger ecosystem and potentially adopters of the project; such as if adopters need to immediately update, or support a new port or protocol. It should include drawbacks to the proposed solution. 
+
+### Security Considerations
+
+When attempting to identify security implications of the changes, consider the following questions:
+* Does the change alter the permissions or access of users, services, components - this could be an improvement or downgrade or even just a different way of doing it?
+* Does the change alter the flow of information, events, and logs stored, processed, or transmitted?
+* Does the change increase the 'surface area' exposed - meaning, if an operator of the project or user were to go rogue or be uninformed in its operation, do they have more areas that could be manipulated unfavorably?
+* What existing security features, controls, or boundaries would be affected by this change? ```
 
 This section can also be combined into the one above.
 
