@@ -8,6 +8,8 @@
 
 **Checklist**:
 
+What goes in this checklist is highly dependent on how your project manages their PRs. The Checklist is intended to serve as a final review for the feature before cutting the release where the feature is available.
+
 - [ ] Prerequisite 1
 - [ ] Prerequisite 2
 - [ ] Component 1
