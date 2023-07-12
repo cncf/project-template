@@ -5,7 +5,7 @@
 <!-- template begins here-->
 
 The [TODO:PROJECTNAME]  project is dedicated to creating [TODO:Goals of project].  
-This goverance explains how the project is run.
+This governance explains how the project is run.
 
 - [Values](#values)
 - [Maintainers](#maintainers)
