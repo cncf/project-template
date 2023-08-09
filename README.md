@@ -11,7 +11,7 @@ By creating a copy and customizing the template, projects can focus on their uni
 
 To create a new project repository from this CNCF template:
 
-1. Click **Use this template** and create a copy of this repository under your own organization.
+1. Click **'Use this template'** below and create a copy of this repository under your own organization.
 
     [![Green button that says "Use this template"](https://user-images.githubusercontent.com/1368985/95903529-e9c32f00-0d5b-11eb-8723-4369f7c9e044.png)](https://github.com/new?template_name=project-template&template_owner=cncf)
 
