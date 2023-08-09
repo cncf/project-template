@@ -75,9 +75,12 @@ The guides provide step-by-step instructions to:
 - Adopt templates 
 - Understand template contents
 - Customize for your needs
+
 Review the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#how-to-guides) for assistance with getting started and fully utilizing these project templates.
 
 [template-repo]: https://github.com/cncf/project-template
 [contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
+
+
 
 Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md) as a template for your project README.
