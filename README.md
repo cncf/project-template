@@ -17,7 +17,7 @@ To create a new project repository from this CNCF template:
 
 2. Remove `.github/settings.yml` - this contains configuration specific to for our repo only. You should not keep this file.
 
-3. First, Customize every [required template](#required-templates) files and those specific to your project.
+3. Customize every [required template](#required-templates) files and those specific to your project.
 
 4. Remove any templates not needed.
 
@@ -66,7 +66,8 @@ Please note that the security templates may be found in the [Security TAG’s pr
 
 ## Getting Help
 
-Need guidance on using these templates? Want to learn more about customizing a specific template?
+Need guidance on using these templates? 
+Want to learn more about customizing a specific template?
 
 Check out the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#how-to-guides) on our website.
 
@@ -80,7 +81,6 @@ Review the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#how
 
 [template-repo]: https://github.com/cncf/project-template
 [contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
-
 
 
 Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md) as a template for your project README.
