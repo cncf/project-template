@@ -1,6 +1,6 @@
 # CNCF Project Template Repository
 
-This is a [template repository][template-repo] for CNCF projects created by [CNCF SIG Contributor
+This is a [template repository][] for CNCF projects created by [CNCF SIG Contributor
 Strategy][contrib-strat]. You can use it to either start a new repository that
 has all the required files for a CNCF project or just grab the particular files
 that you need.

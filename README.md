@@ -52,14 +52,36 @@ This project contains templates for:
 - [GOVERNANCE](GOVERNANCE.md) - Project leadership and governance 
 - [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) - Community code of conduct
 - [CONTRIBUTOR_LADDER](CONTRIBUTOR_LADDER.md)
-- [+-DESIGN-PROPOSALS.md DESIGN-PROPOSALS.md
-- GOVERNANCE-elections.md GOVERNANCE-elections.md
-- GOVERNANCE-maintainer.md GOVERNANCE-maintainer.md
-- GOVERNANCE-subprojects.md GOVERNANCE-subprojects.md
-- GOVERNANCE.md GOVERNANCE.md
-- MAINTAINERS.md MAINTAINERS.md
-- REVIEWING.md REVIEWING.md
+- [DESIGN-PROPOSALS](DESIGN-PROPOSALS.md)
+- [GOVERNANCE-elections](GOVERNANCE-elections.md)
+- [GOVERNANCE-maintainer](GOVERNANCE-maintainer.md)
+- [GOVERNANCE-subprojects](GOVERNANCE-subprojects.md)
+- [GOVERNANCE](GOVERNANCE.md)
+- [MAINTAINERS](MAINTAINERS.md)
+- [REVIEWING](REVIEWING.md)
 - [.github/](.github/) - GitHub community health files
+
+
+Here is that list formatted in Markdown:
+
+**Key Templates to Customize:**
+
+
+- [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) - Standards for community interaction and behavior  
+- [CONTRIBUTING](CONTRIBUTING.md) - Guidelines for contributing to the project
+- [CONTRIBUTOR_LADDER](CONTRIBUTOR_LADDER.md) - Details on roles and responsibilities for contributors
+- [DESIGN-PROPOSALS](DESIGN-PROPOSALS.md) - Template for proposing and documenting major feature designs  
+- [GOVERNANCE](GOVERNANCE.md) - Project leadership, decision-making, and governance models
+- [GOVERNANCE-elections](GOVERNANCE-elections.md) - Leadership election process   
+- [GOVERNANCE-maintainer](GOVERNANCE-maintainer.md) - Expectations and requirements for maintainers
+- [GOVERNANCE-subprojects](GOVERNANCE-subprojects.md) - Guidelines for creating subprojects
+- [LICENSE](LICENSE) - Open source license terms, Apache 2.0 by default
+- [MAINTAINERS](MAINTAINERS.md) - Current project maintainers and sponsoring entities
+- [README](README-template.md) - High level overview and documentation for the project
+- [REVIEWING](REVIEWING.md) - Code and documentation review process
+- [.github/](.github/) - GitHub community health files like ISSUE_TEMPLATE, PULL_REQUEST_TEMPLATE etc.
+
+In Markdown, each list item starts with a hyphen `- `  on its own line. Let me know if you need any clarification on Markdown syntax!
 
 Please note that the security templates may be found in the [Security TAG’s project resources folder.](https://github.com/cncf/tag-security/tree/main/project-resources)
 
@@ -82,5 +104,4 @@ Review the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#how
 [template-repo]: https://github.com/cncf/project-template
 [contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
 
-Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md)
-as a template for your project README.
+Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md) as a template for your project README.
