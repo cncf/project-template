@@ -73,9 +73,7 @@ Check out the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#
 The guides provide step-by-step instructions to help you:
 
 Adopt the templates for your project
-
 Understand what each template contains
-
 Make customizations for your specific needs
 
 Review the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#how-to-guides) for assistance with getting started and fully utilizing these project templates.
