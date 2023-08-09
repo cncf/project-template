@@ -70,12 +70,11 @@ Need guidance on using these templates? Want to learn more about customizing a s
 
 Check out the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#how-to-guides) on our website.
 
-The guides provide step-by-step instructions to help you:
+The guides provide step-by-step instructions to:
 
-Adopt the templates for your project
-Understand what each template contains
-Make customizations for your specific needs
-
+- Adopt templates 
+- Understand template contents
+- Customize for your needs
 Review the [How-To Guides](https://contribute.cncf.io/maintainers/templates/#how-to-guides) for assistance with getting started and fully utilizing these project templates.
 
 [template-repo]: https://github.com/cncf/project-template
