@@ -2,9 +2,10 @@
 
 # CNCF Project Template
 
-This repository serves as a [project template][template-repo] created by [CNCF SIG Contributor
-Strategy][contrib-strat] that new open source projects can use when joining the Cloud Native Computing Foundation (CNCF). The template provides a standardized structure and initial files to help projects quickly set up a repository that follows community best practices. By forking and customizing this template, new CNCF projects can avoid reinventing the wheel and instead focus on their unique goals and needs. Overall, the template makes it easier for projects to get started under the CNCF with recommended guidelines and resources already in place.. It contains template files and best practices to help projects quickly adopt processes that align with CNCF standards.
+This [template repository][template-repo] by [CNCF SIG Contributor
+Strategy][contrib-strat] helps new projects join CNCF. It provides a standardized structure and starter files to quickly set up a repository following community best practices.
 
+By creating a copy and customizing the template, projects can focus on their unique goals instead of reinventing the wheel. Overall, it makes adopting CNCF guidelines and resources easier so projects can start strong.
 
 ## Getting Started 
 
@@ -16,7 +17,7 @@ To create a new project repository from this CNCF template:
 
 2. Remove `.github/settings.yml` - this contains configuration specific to for our repo only. You should not keep this file.
 
-3. First, Customize every [required template](#required-templates) files and those specific to your project..
+3. First, Customize every [required template](#required-templates) files and those specific to your project.
 
 4. Remove any templates not needed.
 
@@ -46,7 +47,7 @@ To create a new project repository from this CNCF template:
 
 This project contains templates for:
 
-- [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) - Standards for community interaction and behavior  
+- [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) - Standards for community interaction and behavior 
 - [CONTRIBUTING](CONTRIBUTING.md) - Guidelines for contributing to the project
 - [CONTRIBUTOR_LADDER](CONTRIBUTOR_LADDER.md) - Details on roles and responsibilities for contributors.
 - [DESIGN-PROPOSALS](DESIGN-PROPOSALS.md) - Template for proposing and documenting major feature designs  
