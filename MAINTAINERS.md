@@ -1,8 +1,8 @@
 The current Maintainers Group for the [TODO: Projectname] Project consists of:
 
-| Name | Employer | Responsibilities |
-| ---- | -------- | ---------------- |
-|      |          |                  |
+| Name | Employer | Responsibilities | GitHub ID | LFID |
+| ---- | -------- | ---------------- | --------- | ---- |
+|      |          |                  |           |      |
 
 This list must be kept in sync with the [CNCF Project Maintainers list](https://github.com/cncf/foundation/blob/master/project-maintainers.csv).
 
