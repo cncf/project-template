@@ -139,6 +139,14 @@ at least once a year.
 The Security Response Team is responsible for handling all reports of security
 holes and breaches according to the [security policy](TODO:Link to security.md).
 
+## Vendor Neutrality
+
+[TODO: PROJECTNAME] is committed to [vendor neutrality](https://contribute.cncf.io/maintainers/community/vendor-neutrality/). Project direction and decisions are not controlled by any single company.
+
+* **Affiliation disclosure.** Every Maintainer's company affiliation is listed in [MAINTAINERS.md](./MAINTAINERS.md). Changes in affiliation must be reflected within 30 days.
+* **Communication.** Project communication must be conducted in public, project-owned channels — not vendor-owned ones.
+<!-- TODO: If your project has a website, ensure it does not link to a single vendor's commercial product page. References to enterprise offerings should point to a page that features all vendors equally. -->
+
 ## Voting
 
 While most business in [TODO: PROJECTNAME] is conducted by "[lazy consensus](https://community.apache.org/committers/lazyConsensus.html)", 
@@ -151,6 +159,17 @@ demand a vote be taken.
 Most votes require a simple majority of all Maintainers to succeed, except where
 otherwise noted.  Two-thirds majority votes mean at least two-thirds of all 
 existing maintainers.
+
+### Organizational Voting
+
+<!-- TODO: Consider adopting org-balanced voting for governance decisions. The CNCF TOC's governance analysis found that org-balance mechanisms are the single strongest predictor of sustained project diversity. Projects without them are overrepresented among graduated projects with governance concentration concerns.
+
+To adopt org-balanced voting, uncomment the section below and remove the simple majority voting section above for governance decisions. Technical decisions (code review, merge, release) can remain lazy consensus.
+
+Org-balanced voting means each organization gets one vote on governance decisions, regardless of how many maintainers that organization employs. Independent maintainers each receive one vote. Example: if two maintainers work for Company X, two for Company Y, and one is independent, there are three organization votes.
+
+See the CNCF governance best practices: https://github.com/cncf/toc/blob/main/process/governance-best-practices.md
+-->
 
 ## Modifying this Charter
 

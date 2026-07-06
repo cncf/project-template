@@ -229,11 +229,13 @@ with the exceptions for company representation discussed below.
 
 ### Limitations on Company Representation
 
-No more than [TODO: Number] seats may be held by employees of the same organization (or
+No more than [TODO: Number, recommended: 2] seats may be held by employees of the same organization (or
 conglomerate, in the case of companies owning each other). If an
-election results in greater than [TODO: Number] employees of the same organization being
+election results in greater than [TODO: Number, recommended: 2] employees of the same organization being
 selected, the lowest vote getters from any particular employer will be removed until
-representation on the committee is down to two.
+representation on the committee is down to the limit.
+
+<!-- The CNCF TOC recommends max 2 seats per organization on a 5-seat committee. This ensures no single company can hold a majority regardless of their maintainer headcount. Projects that separate governance (steering) from execution (maintainers) with org caps sustain diversity longer. See the CNCF governance best practices for rationale. -->
 
 If employers change because of job changes, acquisitions, or other events, in a
 way that would yield too many seats being held by employees of the same

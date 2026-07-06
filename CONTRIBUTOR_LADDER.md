@@ -90,7 +90,7 @@ An Organization Member must meet the responsibilities and has the requirements o
         * Or some equivalent combination or contribution
     * Must have been contributing for at least [TODO: Number] months
     * Must be actively contributing to at least one project area
-    * Must have two sponsors who are also Organization Members, at least one of whom does not work for the same employer
+    * Must have two sponsors who are also Organization Members, at least one of whom does not work for the same employer <!-- This cross-org sponsorship requirement ensures the path to leadership does not require sponsorship from the dominant organization -->
     * [TODO: other requirements] <!--TODO: such as repository access or enabling 2FA on their GitHub account -->
 
 * Privileges:
@@ -202,11 +202,13 @@ Some projects have additional, specifically defined maintainer roles because of 
 It is important for contributors to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a lost of trust in the project.
 
 * Inactivity is measured by:
-    * Periods of no contributions for longer than [TODO: Number] months
-    * Periods of no communication for longer than [TODO: Number] months
+    * Periods of no contributions for longer than [TODO: Number, suggested: 12] months
+    * Periods of no communication for longer than [TODO: Number, suggested: 12] months
 * Consequences of being inactive include:
     * Involuntary removal or demotion
     * Being asked to move to Emeritus status
+
+<!-- Note: The CNCF TOC recommends defining a specific inactivity threshold (e.g., 12 months) rather than leaving it vague. Projects that don't enforce their inactivity policy risk listing inactive maintainers who inflate apparent diversity without contributing. See the CNCF governance best practices for more context. -->
 
 ## Involuntary Removal or Demotion
 
