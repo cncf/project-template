@@ -1,6 +1,6 @@
 # [TODO:PROJECTNAME] Project Governance
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/)
+[Instructions](https://contribute.cncf.io/projects/best-practices/governance/templates/governance-subprojects)
 
 <!-- template begins here-->
 
@@ -19,7 +19,7 @@ of [TODO:Goals of umbrella project].  Our governance reflects this federated str
 
 ## Values
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#values)
+[Instructions](https://contribute.cncf.io/projects/best-practices/governance/templates/governance-subprojects#values)
 
 The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
@@ -43,7 +43,7 @@ The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
 ## Individual Subproject Governance
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#subprojects)
+[Instructions](https://contribute.cncf.io/projects/best-practices/governance/templates/governance-subprojects#subprojects)
 
 [TODO:PROJECTNAME]'s Subprojects are:
 * [TODO:LIST OF SUBPROJECTS]
@@ -81,7 +81,7 @@ majority vote of the Steering Committee.
 
 ## Steering Committee
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#steering-committee)
+[Instructions](https://contribute.cncf.io/projects/best-practices/governance/templates/governance-subprojects#steering-committee)
 
 The overall [TODO:PROJECTNAME] project is governed by a Steering
 Committee, which is selected as follows:
@@ -146,7 +146,7 @@ community meeting.
 
 ## Code of Conduct Committee
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#code-of-conduct-committee)
+[Instructions](https://contribute.cncf.io/projects/best-practices/governance/templates/governance-subprojects#code-of-conduct-committee)
 
 In order to review and enforce the Code of Conduct, the Steering Committee selects
 [TODO:Number, suggest "3 to 5"] people to be on the Code of Conduct Committee.  
@@ -169,7 +169,7 @@ instead be forwarded to the CNCF staff for final arbitration.
 
 ## Adding New Subprojects
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#adding-and-removing-subprojects)
+[Instructions](https://contribute.cncf.io/projects/best-practices/governance/templates/governance-subprojects#adding-and-removing-subprojects)
 
 During the monthly Steering meeting, any project member may recommend projects
 to become a subproject of [TODO:PROJECTNAME].  These projects should have the following
@@ -179,6 +179,15 @@ characteristics:
 * Are appropriately licensed and governed or willing to become so;
 * Are under active development;
 * Consist of high quality code and designs.
+
+Before accepting an incoming subproject, the Steering Committee must confirm it meets the same CNCF requirements as a project entering the CNCF directly: DCO (or CLA, if [TODO:PROJECTNAME] uses
+one), the CNCF IP Policy, the CNCF Allowed Third-Party License Policy (or an
+approved exception), transfer of trademark and logo assets to the Linux
+Foundation, and baseline Sandbox onboarding standards (Code of Conduct,
+SECURITY.md, GOVERNANCE.md). Its repositories are expected to move into
+[TODO:PROJECTNAME]'s GitHub organization. See the
+[CNCF Subprojects FAQ](https://contribute.cncf.io/projects/lifecycle/subprojects/)
+for details.
 
 Before submitting an application to the Steering Committee, the applying project
 must hold an internal consensus vote of all major contributors to join
@@ -196,11 +205,15 @@ per year to determine if they have matured to full subproject status.
 
 ## Removing Projects
 
-[Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#adding-and-removing-subprojects)
+[Instructions](https://contribute.cncf.io/projects/best-practices/governance/templates/governance-subprojects#adding-and-removing-subprojects)
 
 In some cases, projects will become inactive or unmaintainable, or wish to separate
 from [TODO:PROJECTNAME]. Any Steering Committee member may propose removal of a 
 project on these grounds, and Steering can confirm this with a majority vote.
+
+If a subproject is separating to become its own CNCF project, this vote must be
+recorded in a public issue in [TODO:PROJECTNAME]'s repository, since the CNCF
+Sandbox application process requires a link to it.
 
 Subprojects which still have contributors will then be moved to a repository in 
 their own namespace. Projects which have ceased all activity are moved to a
